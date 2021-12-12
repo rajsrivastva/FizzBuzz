@@ -1,0 +1,17 @@
+version: '3'
+services:
+  fizzbuzz-webapp: 
+    image: rajsrivastva25/fizzbuzz-webapp:latest
+    container_name: fizzbuzz-webapp
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf
+    ports:
+      - 80:80
+    links:
+      - fizzbuzz-serv:fizzbuzz-serv
+
+  fizzbuzz-serv:
+    image: rajsrivastva25/fizzbuzz-serv:latest
+    container_name: fizzbuzz-serv
+    expose:
+      - "8080"
