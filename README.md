@@ -11,7 +11,9 @@ Local Installation:
 Prerequisite :
 
 NodeJs to runs npm
+
 Angular CLI for setting up development environment
+
 JDK
 
 
