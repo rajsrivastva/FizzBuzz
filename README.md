@@ -1,6 +1,10 @@
 # FizzBuzz
 
-Demo 
+Fizzbuzz-webApp serve as a frontend application developed in Angular
+
+FizzBuzzApp serve as a backend application developed in SpingBoot
+
+Demo :
 
 Use docker to view demo, docker image will be downloaded from DockerHub. 
 
